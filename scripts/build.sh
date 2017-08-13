@@ -20,9 +20,9 @@ ARCH=$2
 echo "Start packaging for $PLATFORM $ARCH."
 
 if [ $PLATFORM = "linux" ]; then
-    APP_NAME="electronic-wechat"
+    APP_NAME="DingTalk-Electron"
 else
-    APP_NAME="Electronic WeChat"
+    APP_NAME="DingTalk-Electron"
 fi
 
 ignore_list="dist|scripts|\.idea|.*\.md|.*\.yml|node_modules/nodejieba"

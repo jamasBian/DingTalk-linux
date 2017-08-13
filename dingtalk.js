@@ -1,25 +1,6 @@
 const shell = require('electron').shell;
 
-const injectCSS = `
-  div.main {
-    height: 100% !important;
-    min-height: 0 !important;
-    padding-top: 0 !important;
-  }
-  div.main_inner {
-    max-width: none !important;
-    min-width: 0 !important;
-  }
-  div.message_empty {
-    margin-top: 50px;
-  }
-  p.copyright {
-    display: none !important
-  }
-  a.web_wechat_screencut {
-    display: none !important;
-  }
-`;
+const injectCSS = `#layout-container{width:100%}#body{height:100%}`;
 
 function getParameterByName(url, name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -35,7 +16,7 @@ onload = function () {
     // overwrite css style. make it fullscreen.
     webview.insertCSS(injectCSS);
     // inject js to trigger if there is new message in.
-    webview.executeJavaScript('injectJS.getBadge()');
+    // webview.executeJavaScript('injectJS.getBadge()');
   });
 
   webview.addEventListener('new-window', function (e) {

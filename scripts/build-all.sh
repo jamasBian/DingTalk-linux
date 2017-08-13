@@ -11,7 +11,7 @@ function build() {
 	./scripts/build.sh $@
 }
 
-build darwin x64
+#build darwin x64
 build linux ia32
 build linux x64
 #build win32 ia32
