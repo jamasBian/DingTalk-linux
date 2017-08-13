@@ -1,0 +1,28 @@
+{
+  "name": "Dingtalk-electron",
+  "version": "0.0.0",
+  "description": "A Electron application for DingTalk",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamasBian/DingTalk-linux.git"
+  },
+  "keywords": [
+    "Electron",
+    "DingTalk",
+    "钉钉",
+    "Web"
+  ],
+  "author": "Zhiqiang Bian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamasBian/DingTalk-linux/issues"
+  },
+  "homepage": "https://github.com/jamasBian/DingTalk-linux",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
