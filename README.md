@@ -4,6 +4,7 @@ Mac OS X 和 Linux 下更好用的钉钉客户端。使用Electron构建。
 
 ## 下载
 [钉钉-Electron Linux 32位版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-linux-ia32.tar.gz)
+
 [钉钉-Electron Linux 64位版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-linux-ia64.tar.gz)
 
 [钉钉-Electron Mac OS X版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-darwin-x64.tar.gz)
