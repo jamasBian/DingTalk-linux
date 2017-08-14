@@ -25,15 +25,21 @@ else
     APP_NAME="DingTalk-Electron"
 fi
 
+if [ $PLATFORM = "darwin" ]; then
+    ICON="assets/icon.icns"
+else
+    ICON="assets/icon.png"
+fi
+
 ignore_list="dist|scripts|\.idea|.*\.md|.*\.yml|node_modules/nodejieba"
 
-electron-packager . "${APP_NAME}" --platform=$PLATFORM --arch=$ARCH --electronVersion=1.4.15 --app-version=0.0.5 --icon=assets/icon.icns --overwrite --out=./dist --ignore=${ignore_list}
+electron-packager . "${APP_NAME}" --platform=$PLATFORM --arch=$ARCH --electronVersion=1.4.15 --app-version=0.0.5 --icon=$ICON --overwrite --out=./dist --ignore=${ignore_list}
 
 if [ $? -eq 0 ]; then
   echo -e "$(tput setaf 2)Packaging for $PLATFORM $ARCH succeeded.$(tput sgr0)\n"
 fi
 
 if [ $PLATFORM = "darwin" ]; then
-    ditto -rsrcFork ./dist/Electronic\ WeChat-darwin-x64/Electronic\ WeChat.app /Applications/Electronic\ WeChat.app
-    echo "$(tput setaf 3)App copied to /Applications. You can open Electronic WeChat there or from Spotlight.$(tput sgr0)"
+    ditto -rsrcFork ./dist/${APP_NAME}-darwin-x64/${APP_NAME}.app /Applications/${APP_NAME}.app
+    echo "$(tput setaf 3)App copied to /Applications. You can open ${APP_NAME} there or from Spotlight.$(tput sgr0)"
 fi

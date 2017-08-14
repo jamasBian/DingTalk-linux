@@ -12,7 +12,7 @@ let mainWindow;
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({icon: __dirname+'./assets/icon.png'});
+  mainWindow = new BrowserWindow({icon: './assets/icon.png'});
   mainWindow.maximize();
 
   // and load the index.html of the app.
