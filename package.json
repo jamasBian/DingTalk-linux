@@ -1,9 +1,9 @@
 {
-  "name": "DingtalkElectron",
+  "name": "DingTalk-Electron",
   "version": "0.0.0",
   "description": "A Electron application for DingTalk",
   "main": "main.js",
-   "scripts": {
+  "scripts": {
     "start": "electron main.js",
     "build": "./scripts/build-all.sh",
     "build:osx": "./scripts/build.sh darwin x64",

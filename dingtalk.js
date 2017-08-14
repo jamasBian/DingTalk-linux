@@ -13,9 +13,12 @@ function getParameterByName(url, name) {
 
 onload = function () {
   var webview = document.getElementById("webview");
-  console.log(webview);
   webview.addEventListener('dom-ready', function () {
     // overwrite css style. make it fullscreen.
+    console.log(webview);
+    const path = require('path');
+    const imgPath = path.join(process.resourcesPath, '/icon.png')
+    console.log(imgPath);
     webview.insertCSS(injectCSS);
     // inject js to trigger if there is new message in.
     // webview.executeJavaScript('injectJS.getBadge()');
