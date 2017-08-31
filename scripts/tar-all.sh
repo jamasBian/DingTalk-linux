@@ -1,7 +1,8 @@
 #!/bin/bash
 
-cd dist
 
+cd dist
+mkdir ../releases/
 echo 'Start compressing for Linux x64.'
 tar zcf 'DingTalk-Electron-linux-x64.tar.gz' 'DingTalk-Electron-linux-x64'
 mv DingTalk-Electron-linux-x64.tar.gz ../releases

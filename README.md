@@ -3,15 +3,17 @@
 Mac OS X 和 Linux 下更好用的钉钉客户端。使用Electron构建。
 
 ## 下载
-[钉钉-Electron Linux 32位版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-linux-ia32.tar.gz)
+[钉钉-Electron Linux 32位版本](https://github.com/jamasBian/DingTalk-linux/releases/download/1.0.0/Linux-32bit-DingTalk-Electron.tar.gz)
 
-[钉钉-Electron Linux 64位版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-linux-ia64.tar.gz)
+[钉钉-Electron Linux 64位版本](https://github.com/jamasBian/DingTalk-linux/releases/download/1.0.0/Linux-64bit-DingTalk-Electron.tar.gz)
 
-[钉钉-Electron Mac OS X版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-darwin-x64.tar.gz)
+[钉钉-Electron Mac OS X版本](https://github.com/jamasBian/DingTalk-linux/releases/download/1.0.0/Mac-OSX-DingTalk-Electron.zip)
 
-[钉钉-Electron Windows 32位版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-win32-ia32.zip)
+[钉钉-Electron Windows 64位版本（Windows 7及以上](https://github.com/jamasBian/DingTalk-linux/releases/download/1.0.0/Windows-7.10-DingTalk-Electron.zip)
 
-[钉钉-Electron Windows 64位版本](http://ounxgws2v.bkt.clouddn.com/DingTalk-Electron-win32-x64.zip)
+[钉钉-Electron Windows 32位版本(XP及以下)](https://github.com/jamasBian/DingTalk-linux/releases/download/1.0.0/Windows-XP-DingTalk-Electron.zip)
+
+
 
 ## 如何使用：
 
